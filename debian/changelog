@@ -1,3 +1,18 @@
+alsa-ucm-conf (1.2.14-1radxa2) noble; urgency=medium
+
+  [ xzl ]
+  * fix: fix githubaction base build env
+  * fix: disable lintian  warnning as error
+
+  [ ZHANG Yuntian ]
+  * fix: remove last comma
+  * fix: update build dependency
+
+  [ Nascs Fang ]
+  * feat: Add DMI match for Radxa Dragon Q6A
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 20 Jan 2026 16:23:32 +0000
+
 alsa-ucm-conf (1.2.14-1radxa1) unstable; urgency=medium
 
   * fix q6a alsa config.
