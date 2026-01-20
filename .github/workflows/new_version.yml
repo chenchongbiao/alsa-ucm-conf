@@ -18,7 +18,7 @@ jobs:
       - name: Create release commit
         run: |
           sudo apt-get update
-          sudo apt-get install --no-install-recommends -y git-buildpackage
+          sudo apt-get install --no-install-recommends -y git-buildpackage lintian debhelper devscripts build-essential fakeroot dh-make
           export DEBEMAIL="dev@radxa.com"
           export DEBFULLNAME='"Radxa Computer Co., Ltd"'
           git config user.name "github-actions[bot]"
